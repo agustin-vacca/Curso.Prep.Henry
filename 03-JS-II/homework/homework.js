@@ -182,7 +182,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   let tabla = new Array();
   for (let i = 0; i < 11; i++){
-    tabla.unshift(6*i);
+    tabla.push(6*i);
   }
   return tabla;
 }
