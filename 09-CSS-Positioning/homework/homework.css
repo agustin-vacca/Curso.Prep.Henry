@@ -7,32 +7,48 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;          /* el display funciona como el bloque de texto, si lo usamos con block, tomara todo el ancho de la caja donde se encuentra */
+    text-align: center;      /* este termino centra el texto dentro del bloque de texto */
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos{
+    display: none;          /* hace desaparecer completamente un bloque de texto */
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres{
+    position: static;       /* le damos un valor por default a nuestra caja, con una posicion */
+    margin-top: 100px;      /* el margen que toma desde x posicion */
+    margin-left: 200px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+    position: absolute;     /* le damos un valor fijo a nuestra caja */
+    top: 0px;               /* aca asigna de donde empieza */
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
+#ejercicioCinco{
+    display: flex;          /* divide nuestra caja en una matriz con columnas y filas para acomodar el bloque de texto*/
+    justify-content: space-around;      /* alinea nuestro bloque de texto de manera horizontal, es decir de izq a derecha. En este caso hace q todos tengan la misma separacion con un margen */
+    align-items: center;            /* alinea nuestro bloque de texto de manera vertical, es decir de arriba a bajo. En este caso lo centra */
+    flex-direction: row-reverse;       /* Asigna como interpreta las col y filas el navegador. Ej: si de izq a derecha o derecha a izq en este caso */
+}
 
 
 /* Ejercicio 6. */
+
